@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Rubik+Vinyl&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+a,a:link,a:visited,a:hover,a:active,a:focus{
+    text-decoration: none;
+    color: aquamarine;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-size: 14pt;
+    color: #2c2c2c;
+    font-family: Abel;
+}
+header{
+    width: 100%;
+    background-color: #000;
+    color: azure;
+    padding-top: 8px 16px;
+}
+.logo, nav{
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Rubik Vinyl';
+}
+.logo{
+    font-size: 30pt;
+    font-weight: bold;
+    padding-left: 48px;
+}
+nav{
+    float: right;
+    padding-top: 12px;
+}
+nav ul li{
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 17pt;
+    font-weight: bold;
+    list-style-type: none;
+    padding: 0 16px;
+}
+main{
+    background-image: url(./168069577-2f570d08-61d3-49d8-b7dd-c4b9192aaf68.jpg);
+    background-position: top center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    display: table;
+    height: 90vh;
+}
+.container{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 35%;
+    position: absolute;
+    right: 0px;
+    bottom: 18px;
+    color: #850ccb;
+    font-weight: bold;
+    background-color: rgba(5, 5, 5, 0.626);
+    padding: 8px;
+}
+h1{
+    font-family: 'Abel';
+    font-size: 46pt;
+}
+footer{
+    text-align: center;
+    font: 11pt;
+    background-color: #2c2c2c;
+    color: aliceblue;
+    padding: 12px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+}
